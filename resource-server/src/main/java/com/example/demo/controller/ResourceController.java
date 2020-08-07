@@ -16,7 +16,7 @@ public class ResourceController {
 	@Autowired
 	ResourceService resourceService;
 	
-	@GetMapping("/resource")
+	@GetMapping("/getAllUser")
 	List<User> gettingdata() {
 		return resourceService.findAll();
 	}	
